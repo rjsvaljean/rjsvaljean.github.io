@@ -38,7 +38,9 @@
           </div>
         {% endunless %}
 
+	{% if site.projects %}
         {% include projects.html %}
+	{% endif %}
 
         {% if site.topics %}
           {% include interests.html %}
